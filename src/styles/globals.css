@@ -78,6 +78,10 @@
     h1 {
         @apply font-primary font-bold text-2xl md:font-extrabold md:text-4xl;
     }
+
+    h2 {
+        @apply font-primary font-bold text-xl
+    }
 }
 
 /* components like buttons */
@@ -93,4 +97,5 @@
 
     .card {
     }
+    
 }

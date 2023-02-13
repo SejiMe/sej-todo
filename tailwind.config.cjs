@@ -49,6 +49,20 @@ module.exports = {
 		},
 	},
 	plugins: [
-		require('@tailwindcss/line-clamp')
+		require('@tailwindcss/line-clamp'),
+		/* eslint-disable */
+		require('tailwind-typewriter')({
+			wordsets: {
+				seji: {
+					words: [
+						'<Seji />',
+						'<Developer />',
+						`<Seji TODO/>`
+					],
+					delay: 0,
+				},
+			},
+		}),
+		/* eslint-enable */
 	],
 };
