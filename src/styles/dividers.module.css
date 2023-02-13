@@ -1,0 +1,35 @@
+.divider1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.divider1 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 113px;
+}
+
+.divider1 .shape_fill {
+    fill: #F5F5DC;
+}
+
+.divider2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.divider2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 44px;
+}
